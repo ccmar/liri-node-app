@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var keys = require("./keys.js")
 var Twitter = require("twitter")
 var Spotify = require("node-spotify-api")
@@ -116,7 +115,7 @@ if (command === "my-tweets") {
   			for(var i = 0; i < tweets.length; i++){
   				console.log(tweets[i].text);
   			}
-    	
+
   		} else {
   			console.log(error);
   		}
@@ -124,5 +123,3 @@ if (command === "my-tweets") {
 }else if (command === "spotify-this-song") {
 		//do spotify stuff
 };
-
->>>>>>> 133705986ebc9399e78b7c7c5531801afbb958ed
